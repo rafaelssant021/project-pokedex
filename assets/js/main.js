@@ -32,7 +32,6 @@ function displayPokemons(start, count) {
     `).join('');
     pokemonList.innerHTML += newHtml;
 
-    // Add click listeners to new items
     const newLis = pokemonList.querySelectorAll('li[data-id]');
     newLis.forEach(li => {
         li.addEventListener('click', () => {
@@ -87,7 +86,6 @@ searchInput.addEventListener("input", () => {
         `).join('');
         pokemonList.innerHTML = newHtml;
 
-        // Add click listeners to filtered items
         const filteredLis = pokemonList.querySelectorAll('li[data-id]');
         filteredLis.forEach(li => {
             li.addEventListener('click', () => {
@@ -144,7 +142,6 @@ function showModal(id) {
     });
 }
 
-// Modal close
 document.querySelector('.close').addEventListener('click', () => {
     document.getElementById('pokemonModal').classList.remove('show');
 });

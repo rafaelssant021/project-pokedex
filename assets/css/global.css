@@ -196,7 +196,6 @@ section{
     transition: transform 0.2s;
 }
 
-/* Modal styles */
 .modal {
     display: none;
     position: fixed;
@@ -282,7 +281,7 @@ section{
     color: #333;
 }
 
-/* Modal animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
