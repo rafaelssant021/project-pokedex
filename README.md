@@ -1,30 +1,47 @@
-Pokédex Web
+# Pokédex Web
 
-Uma Pokédex interativa desenvolvida com HTML, CSS e JavaScript, que consome dados da API pública PokeAPI para exibir informações de Pokémons.
-A aplicação mostra os Pokémons em formato de cards com imagem, número e tipo, simulando uma Pokédex digital.
+Acesse o projeto: https://rafaelssant021.github.io/project-pokedex/
 
-Acesse o projeto:
-https://rafaelssant021.github.io/project-pokedex/
+## Sobre
+Este projeto é uma Pokédex interativa que consome dados de uma API pública para exibir informações de Pokémons em tempo real.
+O objetivo foi praticar o consumo de APIs, manipulação de dados e criação de interfaces dinâmicas com JavaScript.
 
-Funcionalidades:
-Listagem de Pokémons
-Exibição de imagem do Pokémon
-Número do Pokémon na Pokédex
-Cores diferentes para cada tipo
-Layout responsivo
-Dados carregados dinamicamente via API
+---
 
-Tecnologias utilizadas:
-HTML5
-CSS3
-JavaScript
-Fetch API
+## Tecnologias utilizadas
+- HTML5
+- CSS3
+- JavaScript
+- API REST (PokéAPI)
 
-A aplicação utiliza requisições assíncronas com fetch para buscar os dados dos Pokémons diretamente da API.
+---
 
-Durante o desenvolvimento desse projeto foram praticados:
-Consumo de APIs
-Manipulação do DOM
-JavaScript assíncrono
-Organização de código front-end
-Estilização dinâmica baseada em dados.
+## Funcionalidades
+- Busca de Pokémon por nome ou número
+- Exibição dinâmica de imagem e informações
+- Navegação entre Pokémons
+- Interface interativa e responsiva
+
+---
+
+
+## O que eu pratiquei neste projeto
+- Consumo de API com Fetch (requisições assíncronas)
+- Manipulação do DOM com JavaScript
+- Tratamento de dados vindos da API
+- Atualização dinâmica de conteúdo na tela
+- Organização de código front-end
+
+---
+
+## Como funciona
+A aplicação realiza requisições para uma API de Pokémons e atualiza a interface conforme os dados recebidos, exibindo informações como nome, número e imagem.
+
+---
+
+## Status
+Concluído  
+Possíveis melhorias futuras:
+- Adicionar mais detalhes dos Pokémons
+- Melhorar responsividade
+- Implementar animações
